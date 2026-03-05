@@ -1,0 +1,63 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Python
+# =========================
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Others
+.mypy_cache/
+.pytest_cache/
+
+# =========================
+# Node.js / Next.js
+# =========================
+node_modules/
+.next/
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# =========================
+# Logs
+# =========================
+log/
+logs/
+*.log
+
+# =========================
+# Backup / Archive
+# =========================
+backup/
+archive/
+
+# =========================
+# Test / build results
+# =========================
+results/
+test-results/
+playwright-report/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

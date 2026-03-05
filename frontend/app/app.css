@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100..900&display=swap");
+@theme {
+  --font-kosugi-maru: "Kosugi Maru", "sans-serif";
+  --font-noto-sans-jp: "Noto Sans JP", "sans-serif";
+
+  --color-ctm-blue-500: oklch(0.5381 0.1433 247.55);
+  --color-ctm-blue-600: oklch(0.4 0.1433 247.55);
+  --color-ctm-yellow-200: oklch(0.8498 0.1739 86.55);
+  --color-ctm-navy-700: oklch(0.25 0.049 266.47);
+  --color-ctm-navy-800: oklch(0.1761 0.049 266.47);
+  --color-ctm-orange-400: oklch(0.5898 0.2249 31.77);
+  --color-ctm-green-500: oklch(0.5518 0.1476 150.75);
+  --color-ctm-grey-600: oklch(0.3616 0.0323 240.15);
+
+  /* for Markdown component */
+  --text-md-h1: 16px;
+  --text-md-h1--line-height: 18px;
+  --text-md-h2: 15px;
+  --text-md-h2--line-height: 17px;
+  --text-md-h3: 14px;
+  --text-md-h3--line-height: 16px;
+  --text-md-h4: 13px;
+  --text-md-h4--line-height: 15px;
+  --text-md-h5: 12px;
+  --text-md-h5--line-height: 13px;
+  --text-md-h6: 11px;
+  --text-md-h6--line-height: 13px;
+  --text-md-code: 10px;
+  --text-md-code--line-height: 12px;
+  --text-md-ul: 12px;
+  --text-md-ul--line-height: 14px;
+  --text-md-ol: 12px;
+  --text-md-ol--line-height: 14px;
+  --text-md-body: 12px;
+  --text-md-body--line-height: 14px;
+
+  /* for Application component */
+  --text-app-step: 20px;
+  --text-app-step--line-height: 24px;
+  --text-app-avatar: 18px;
+  --text-app-avatar--line-height: 20px;
+  --text-app-info: 14px;
+  --text-app-info--line-height: 18px;
+  --text-app-agent: 14px;
+  --text-app-agent--line-height: 20px;
+  --text-app-time: 12px;
+  --text-app-time--line-height: 18px;
+  --text-app-detail: 12px;
+  --text-app-detail--line-height: 18px;
+  --text-app-emoji: 13px;
+  --text-app-emoji--line-height: 18px;
+  --text-app-label: 12px;
+  --text-app-label--line-height: 18px;
+}

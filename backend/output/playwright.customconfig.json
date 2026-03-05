@@ -1,0 +1,9 @@
+{
+  "base_url": "http://localhost:3003",
+  "results": "results",
+  "playwright_info_file": "playwright_info.json",
+  "playwright_report_file": "playwright_report.json",
+  "playwright_report_summary_file": "playwright_report_summary.json",
+  "screenshot_dir": "screenshot"
+}
+

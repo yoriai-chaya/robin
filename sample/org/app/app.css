@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100..900&display=swap");
+@theme {
+  --font-kosugi-maru: "Kosugi Maru", "sans-serif";
+  --font-noto-sans-jp: "Noto Sans JP", "sans-serif";
+
+  --color-ctm-blue-500: oklch(0.5381 0.1433 247.55);
+  --color-ctm-blue-600: oklch(0.4 0.1433 247.55);
+  --color-ctm-yellow-200: oklch(0.8498 0.1739 86.55);
+  --color-ctm-navy-700: oklch(0.25 0.049 266.47);
+  --color-ctm-navy-800: oklch(0.1761 0.049 266.47);
+  --color-ctm-orange-400: oklch(0.5898 0.2249 31.77);
+  --color-ctm-green-500: oklch(0.5518 0.1476 150.75);
+  --color-ctm-grey-600: oklch(0.3616 0.0323 240.15);
+}
