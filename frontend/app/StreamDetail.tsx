@@ -140,9 +140,11 @@ const StreamDetail = ({ status, responseInfo }: StreamDetailProps) => {
                         <span className="font-semibold">rule: </span>
                         <span className="text-muted-foreground">{rule_id}</span>
                       </div>
-                      <div className="break-all">
+                      <div>
                         <span className="font-semibold">detail: </span>
-                        <span className="text-muted-foreground">{detail}</span>
+                        <span className="text-muted-foreground whitespace-pre-wrap break-all">
+                          {detail}
+                        </span>
                       </div>
                     </div>
                   )}
