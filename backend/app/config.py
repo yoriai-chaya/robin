@@ -24,7 +24,8 @@ class Settings(BaseSettings):
     build_customconfig_file: str = "build.customconfig.json"
     agents_prompt_file: str = "agents.yml"
 
-    code_gen_retry: int = 3
+    code_gen_retry: int = 5
+    rebuild_retry: int = 3
 
     debug: bool = False
     log_filename: str = "yoriai.log"
